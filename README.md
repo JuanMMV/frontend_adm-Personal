@@ -3,7 +3,7 @@
 Aplicación diseñada utilizando la biblioteca ReactJS y el entorno de desarrollo Vite. Esta aplicación permite ingresar, editar y eliminar personas a una base de datos y visualizarlas en el navegador en formato de tabla.
 
 ### Link backend: https://github.com/JuanMMV/backend_adm-Personal
-### Demo: https://frontend-adm-personal-juanmanuel-ciisacl.vercel.app/
+### Demo: https://frontend-adm-personal.vercel.app/
 
 ## Funcionalidades
 
