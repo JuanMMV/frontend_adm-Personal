@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // const host = "http://localhost:3000/api/";
-const host = 'https://backendadm-personal-production.up.railway.app/api/';
+
+const host = `${process.env.REACT_APP_HOST}/api/` 
 
 export const getPeopleRequests = async () => {
     try {
