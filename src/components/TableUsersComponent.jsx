@@ -89,7 +89,7 @@ const TableUsersComponent = ({ users, setUpdateUser }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {users.map((user, index) => {
+                    {[...users].reverse().map((user, index) => {
                         return (
                             <tr
                                 key={user.id}
