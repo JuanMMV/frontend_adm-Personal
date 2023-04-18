@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const host = "http://localhost:3000/api/";
-const host = `${process.env.REACT_APP_HOST}/api/` 
+const host = `${import.meta.env.VITE_HOST}` 
 
 export const getPeopleRequests = async () => {
     try {
